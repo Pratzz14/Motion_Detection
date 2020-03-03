@@ -6,15 +6,43 @@
   <body>
       <h1 style="background-color:aquamarine ; text-align: center">M-18</h1>
       <h1 style="background-color: aqua; text-align: center">Motion Detection Using PIR Sensor </h1>
+      <div style="text-align: end">
+      <ul> <b>
+          <li> PRATIK MAHANKAL 161</li>
+          <li> MONISH RAVAL 164</li>
+          <li> NIGEL MALAPPAN 162</li>
+          </b>
+          
+      </ol>
+          </div>
       <hr>
       <h3> <u> <b>INTRODUCTION : </b></u></h3>
            In today’s fast lane world , you are either hunting or being hunted . You don’t know who’s lurking behind you a friend or a foe. Safety has become one of the basic necessities and safety is what the motion detecting sensors are going to provide. A couple of years back before the wireless technology kicked in the security systems basically consisted of three major components which are flood lamps , motion detecting sensor and a beeper. As soon as, the motion was detected the beeper would go off and the people within the house would be alerted. But now-a-days the wireless technology makes it much easier to access the security system while you are sitting in your office and having a nice cup of tea. And our project basically stresses on this type of security systems.
       <h3> <u><b>PIR SENSOR :</b></u>  </h3>
+      The PIR sensor consists of three major parts viz. the dome, circuit board the
+IC. Let’s begin with the dome; it definitely acts as a protection for the sensor but that
+is its secondary function. As for its primary function; the dome is made up of small
+fresnel lenses which provides the sensor with a wide range of view that is of 108º
+from left to right and 70º from top to bottom.The next main component is the IC BISS0001 it is required to run the most
+basic functions such as taking inputs and outputs, delay time adjustments, sensitivity
+adjustments and many more….
      <img src="PIR-Motion-Sensor-Detector-Module-HC-SR501-1.jpg" width="500" height="300">
       <ul>
-        <li>BASIC WORKING</li>
-        <li>VOLTAGE REGULATION</li>  
-        <li>WARM-UP TIME</li>  
+        
+        <li>BASIC WORKING</li> 
+          As the PIR sensor works at a preferred voltage of 5V at first a 5V input is given to the
+PIR after which the BISS0001 gives the sensor a continuous supply for which to
+stabalize the sensor requires a warm up time of 1 minute after which if the motion is
+detected as the output of 1. The sensitivity of the sensor can be increased by using the
+sensitivity adjustment dial and the output delay time can be adjusted by using the
+delay adjustment dial. The fresnel lenses present on the dome takes in the sudden
+spike in heat intensity as the input for the further computing. The output is provided to
+the ESP as an input.
+        <li>VOLTAGE</li> 
+          The voltage required for the PIR to function at full power is preferred to be 5V if
+excess voltage is provided the internal voltage regulator which converts the outgoing
+voltage to 3.3V that excess voltage is dissipated into the environment in the form of
+heat. Thus the 5V input is preferred as to avoid the excess heat.
       </ul>
       <h3><u>ESP8266</u></h3>
       <img src="NodeMCU_ESP8266_development_board_1024x1024.webp" width="500" height="300">
@@ -70,3 +98,4 @@ In the similar manner we can use this infrastructure to collect the heartbeat da
       </ul>
   </body>
 </html>
+
